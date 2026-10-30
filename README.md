@@ -2,7 +2,10 @@
 
 An end-to-end LLM serving, load-testing, and production-grade monitoring pipeline. This project deploys an OpenAI-compatible API server using **vLLM** to serve models, stress-tests endpoints at scale, and monitors real-time engine health using **Prometheus** and **Grafana**.
 
-## 🛠&nbsp; Architecture & Tech Stack
+## 📊 Real-Time Grafana Dashboard Link
+https://snapshots.raintank.io/dashboard/snapshot/3JuFTXxErLyzAvaVpO9IzL2GE2L03sLr?from=2026-10-30T10:45:02.383Z&to=2026-10-30T11:00:02.383Z&timezone=browser&refresh=auto
+
+## 🛠  Architecture & Tech Stack
 - **LLM Engine:** vLLM (v0.32.0)
 - **Models Tested:**
   - `Qwen/Qwen2.5-7B-Instruct-AWQ` (4-bit quantized baseline)
@@ -25,7 +28,7 @@ Below are the actual benchmark results obtained during our stress testing load-s
 > **Inference Engineering Insight:** By evaluating a 7B AWQ 4-bit quantized model on a budget GPU (Tesla T4), we demonstrate how quantization allows larger, more capable models to fit within restricted GPU memory budgets while keeping p95 latencies strictly bounded.
 
 ## 🚀 How to Reproduce
-1. Open `vllm_benchmark.ipynb` in Google Colab.
+1. Open `vllm_benchmark.ipynb` in Google Collabor.
 2. Step through the setup to download, compile, and run the vLLM engine.
 3. Run the Prometheus & Grafana stack inside the environment.
 4. Access your metrics dashboard using the generated Cloudflare secure tunnel URL.
