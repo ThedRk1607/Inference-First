@@ -3,8 +3,8 @@
 An end-to-end LLM serving, load-testing, and production-grade monitoring pipeline. This project deploys an OpenAI-compatible API server using **vLLM** to serve models, stress-tests endpoints at scale, and monitors real-time engine health using **Prometheus** and **Grafana**.
 
 ## 📊 Real-Time Grafana Dashboard Link
-https://snapshots.raintank.io/dashboard/snapshot/3JuFTXxErLyzAvaVpO9IzL2GE2L03sLr?from=2026-10-30T10:45:02.383Z&to=2026-10-30T11:00:02.383Z&timezone=browser&refresh=auto
-
+[https://snapshots.raintank.io/dashboard/snapshot/3JuFTXxErLyzAvaVpO9IzL2GE2L03sLr?from=2026-10-30T10:45:02.383Z&to=2026-10-30T11:00:02.383Z&timezone=browser&refresh=auto
+](https://snapshots.raintank.io/dashboard/snapshot/ImRtBGBeC8j84WYPpvuWMziegxyUZyjE)
 ## 🛠  Architecture & Tech Stack
 - **LLM Engine:** vLLM (v0.32.0)
 - **Models Tested:**
